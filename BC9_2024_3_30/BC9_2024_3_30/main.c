@@ -18,7 +18,7 @@
 #include <stdio.h>
 int main()
 {
-	int a = printf("Hello world!\n");
-	printf("%d", a);
+	int a = printf("Hello world!");
+	printf("\n%d", a);
 	return 0;
 }
